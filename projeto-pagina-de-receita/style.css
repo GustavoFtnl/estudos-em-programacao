@@ -1,3 +1,38 @@
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: rgb(18, 77, 18);
+}
+
+body {
+  background-image: url(assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: rgb(191, 241, 191);
+  border-radius: 24px;
+  margin:  48px auto;
+}
+
 img {
   border-radius: 16px;
+  max-width: 100%
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1, h2 {
+  color: rgb(7, 70, 16);
 }
