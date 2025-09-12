@@ -1,0 +1,53 @@
+section {
+  padding-block: 32px;
+    font: var(--text-md);
+}
+
+section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-me {
+  display: flex;
+  gap: 32px;
+}
+
+#about-me > div {
+  max-width: 384px;
+}
+
+#about-me h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+section div ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+
+  width: 280px;
+}
+
+section div ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+section div ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.icone-pessoal {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
